@@ -13,6 +13,8 @@
 		4E6D71F21C5363A000280F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D71F01C5363A000280F6E /* Main.storyboard */; };
 		4E6D71F41C5363A000280F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D71F31C5363A000280F6E /* Assets.xcassets */; };
 		4E6D71F71C5363A000280F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D71F51C5363A000280F6E /* LaunchScreen.storyboard */; };
+		4E6D72001C5363B400280F6E /* DDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D71FF1C5363B400280F6E /* DDAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		4E6D72031C5366E700280F6E /* NSString+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D72021C5366E700280F6E /* NSString+DD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4E6D71F31C5363A000280F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E6D71F61C5363A000280F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6D71F81C5363A000280F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6D71FE1C5363B400280F6E /* DDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAlertView.h; sourceTree = "<group>"; };
+		4E6D71FF1C5363B400280F6E /* DDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAlertView.m; sourceTree = "<group>"; };
+		4E6D72011C5366E700280F6E /* NSString+DD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DD.h"; sourceTree = "<group>"; };
+		4E6D72021C5366E700280F6E /* NSString+DD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				4E6D71F51C5363A000280F6E /* LaunchScreen.storyboard */,
 				4E6D71F81C5363A000280F6E /* Info.plist */,
 				4E6D71E71C5363A000280F6E /* Supporting Files */,
+				4E6D71FE1C5363B400280F6E /* DDAlertView.h */,
+				4E6D71FF1C5363B400280F6E /* DDAlertView.m */,
+				4E6D72011C5366E700280F6E /* NSString+DD.h */,
+				4E6D72021C5366E700280F6E /* NSString+DD.m */,
 			);
 			path = DDAlertView;
 			sourceTree = "<group>";
@@ -152,6 +162,8 @@
 				4E6D71EF1C5363A000280F6E /* ViewController.m in Sources */,
 				4E6D71EC1C5363A000280F6E /* AppDelegate.m in Sources */,
 				4E6D71E91C5363A000280F6E /* main.m in Sources */,
+				4E6D72031C5366E700280F6E /* NSString+DD.m in Sources */,
+				4E6D72001C5363B400280F6E /* DDAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
